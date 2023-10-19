@@ -27,13 +27,13 @@ public:
 class Animal : public Criard
 {
 public:
-	Animal(const std::string& animalName = "Gerard", int animalAge = 0);
+	Animal(const std::string& animalName = "Gerard", const int animalAge = 0);
 
 	virtual void Cri() const = 0;
 
 	const std::string& GetName() const;
 
-private:
+protected:
 	std::string m_name;
 
 	int m_age;

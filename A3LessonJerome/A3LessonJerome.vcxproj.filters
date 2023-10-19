@@ -26,5 +26,8 @@
     <ClInclude Include="Animal.hpp">
       <Filter>Resource Files</Filter>
     </ClInclude>
+    <ClInclude Include="Pointers.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

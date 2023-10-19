@@ -1,7 +1,7 @@
 #include "Animal.hpp"
 
 // Pas de rédéfinition de paramètres par défaut
-Animal::Animal(const std::string& animalName, int animalAge) {
+Animal::Animal(const std::string& animalName, const int animalAge) {
 	m_name = animalName;
 	m_age = animalAge;
 	m_liveState = LIVE_STATE::ALIVE;

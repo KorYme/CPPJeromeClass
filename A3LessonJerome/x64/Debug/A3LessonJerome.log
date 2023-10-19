@@ -1,4 +1,7 @@
 ﻿  A3LessonJerome.cpp
-  Animal.cpp
-  Generating Code...
+C:\GitHub\C++ Projects\CPPJeromeClass\A3LessonJerome\A3LessonJerome.cpp(26,18): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
   A3LessonJerome.vcxproj -> C:\GitHub\C++ Projects\CPPJeromeClass\A3LessonJerome\x64\Debug\A3LessonJerome.exe
